@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Status Bar </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Status Bar</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-button (click)="getStatusBarHeight()">Check Apple Pay</ion-button>
+    <!-- <strong>Status bar height iOS is: </strong>
+    <p>{{statusBarHeight}}</p> -->
+  </div>
+</ion-content>
